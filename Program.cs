@@ -25,7 +25,7 @@ namespace Ninjam_Server_Manager
         public static Node[] GetNodeList()
         {
             //string str = System.Reflection.Assembly.GetEntryAssembly().Location
-            string path = "C:\\Users\\tobib\\serverlist.txt";
+            string path = "\\serverlist.txt";
             string[] arrLines = File.ReadAllLines(path);
 
 
